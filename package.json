@@ -1,0 +1,21 @@
+{
+  "name": "h1ro-game-signal-server",
+  "version": "1.0.0",
+  "description": "PeerJS signaling server shared by Turbo Pixel GP / Action Master / Last Landing (made by hiro)",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "hiro (https://github.com/h1ro223)",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "peer": "^1.0.2",
+    "ws": "^8.18.0"
+  }
+}
